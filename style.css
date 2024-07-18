@@ -1,0 +1,36 @@
+.box {
+    width: 75px;
+    height: 75px;
+    border: 1px solid;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 70px;
+    cursor: pointer;
+    text-align: center;
+}
+
+#gameBoard {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+}
+
+#container{
+    font-family: 'Courier New', Courier, monospace;
+    align-content: center;
+    margin: 40px;
+}
+
+#resetBtn {
+    cursor: pointer;
+    margin: 15px;
+    text-align: center;
+}
+
+:root {
+    --streak: #808080
+}
+
+#playerText {
+    text-align: center;
+}
